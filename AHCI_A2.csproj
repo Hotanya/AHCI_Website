@@ -107,6 +107,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="script.js" />
+    <Content Include="style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

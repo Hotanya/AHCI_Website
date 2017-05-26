@@ -2,11 +2,34 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
+    <link rel="stylesheet" href="style.css">
+    <script type= "text/javascript"  src="script.js"> </script>
+
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Hello World</title>
 </head>
 
 <body>
-<p> hi </p>
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'intro')">Introduction</button>
+        <button class="tablinks" onclick="openTab(event, 'results')">Results</button>
+        <button class="tablinks" onclick="openTab(event, 'reflection')">Reflection</button>
+    </div>
+
+    <div id="intro" class="tabcontent">
+        <h3>Introduction</h3>
+        <p>Enter text here.</p>
+    </div>
+
+    <div id="results" class="tabcontent">
+        <h3>Results</h3>
+        <p>Poof! Here are the results.</p>
+    </div>
+
+    <div id="reflection" class="tabcontent">
+        <h3>Reflection</h3>
+        <p>I am a mirror.</p>
+    </div>
+
 </body>
 </html>
