@@ -42,3 +42,15 @@ p {
     padding-right: 28%;
 }
 
+div:before{
+right: 29%;
+
+}
+
+div.line {
+    position:absolute;
+    top: 28px;
+    left:18%;
+    border:1px solid black;
+    width: 10.2%;
+}

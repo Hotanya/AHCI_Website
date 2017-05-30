@@ -10,9 +10,11 @@
 </head>
 
 <body>
+    
+    <div class="line"> </div>
 
     <div class="tab">
-        <button class="tablinks" onclick="openTab(event, 'abstract')">Abstract</button>
+        <button class="tablinks" onclick="openTab(event, 'abstract')" id="defaultTab">Abstract</button>
         <button class="tablinks" onclick="openTab(event, 'intro')">Introduction</button>
         <button class="tablinks" onclick="openTab(event, 'methodology')">Methodology</button>
         <button class="tablinks" onclick="openTab(event, 'results')">Results</button>
@@ -62,6 +64,10 @@
         <h2>Analysis</h2>
         <p>Deep thinking going on here.</p>
     </div>
+    <script>
+            //Get the element with id="defaultTab" and click on it
+            document.getElementById("defaultTab").click();
+    </script>
 
 </body>
 </html>
