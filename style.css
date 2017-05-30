@@ -1,7 +1,6 @@
 ﻿/* Style the tab */
 div.tab {
-    background-color: #f1f1f1;
-    padding-left: 28%;
+    padding-left: 30%;
 }
 
 /* Style the buttons inside the tab */
@@ -47,10 +46,18 @@ right: 29%;
 
 }
 
-div.line {
+div.lineLeft {
     position:absolute;
     top: 28px;
-    left:18%;
-    border:1px solid black;
+    left:14%;
+    border:1px solid grey;
+    width: 10.2%;
+}
+
+div.lineRight {
+    position:absolute;
+    top: 28px;
+    right:14%;
+    border:1px solid grey;
     width: 10.2%;
 }
