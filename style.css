@@ -1,4 +1,5 @@
-﻿/* Style the tab */
+﻿
+/* Style the tab */
 div.tab {
     padding-left: 30%;
 }
@@ -60,4 +61,20 @@ div.lineRight {
     right:14%;
     border:1px solid grey;
     width: 10.2%;
+}
+
+h2{
+    text-decoration:underline;
+}
+
+h3{
+    text-decoration:underline;
+}
+
+body{
+    background-image:url(White-Gradient-Squares-Seamless-Patterns-For-Website-Backgrounds.jpg)
+}
+
+footer{
+   padding-top:20%;
 }
