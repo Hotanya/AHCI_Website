@@ -4,6 +4,10 @@ div.tab {
     padding-left: 30%;
 }
 
+div.mouse{
+    padding-left: 20%;
+}
+
 /* Style the buttons inside the tab */
 div.tab button {
     background-color: inherit;
