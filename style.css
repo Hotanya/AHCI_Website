@@ -81,10 +81,14 @@ h4{
     padding-left:43%;
 }
 
-body{
+/*body{
     background-image:url(White-Gradient-Squares-Seamless-Patterns-For-Website-Backgrounds.jpg)
-}
+}*/
 
 footer{
    padding-top:20%;
+}
+
+p.resultpage{
+   table-layout:auto;
 }
