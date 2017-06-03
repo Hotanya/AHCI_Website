@@ -72,10 +72,6 @@ h2{
     
 }
 
-h3{
-    text-decoration:underline;
-   
-}
 h4{
     text-decoration:underline;
     padding-left:43%;
@@ -91,4 +87,11 @@ footer{
 
 p.resultpage{
    table-layout:auto;
+}
+
+ul{
+	padding-left:32%;
+	padding-right:28%
+	
+	
 }
